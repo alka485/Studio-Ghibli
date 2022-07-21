@@ -3,13 +3,34 @@ body{
     background-image: url("../images/Logo.jpg");
     display: flex;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
     
 }
 
-h1{
-    display: flex;
-    justify-content:center
-    /* align-items: center;
-    text-align: center; */
+.logo {
+    text-align: center;
+    position: relative;
+    top: 60%;
+    left: 50%;
+    color: white;
+    font-family: 'Cormorant SC', serif;
+    font-size: 200%;
+}
 
+.navBar{
+    
+    width: 100%;
+    text-align: center;
+}
+
+.navBar nav{
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    top: 200%;
+}
+.navBar a {
+    color: white;
+    font-family: 'Cormorant SC', serif;
 }

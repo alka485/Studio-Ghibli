@@ -1,10 +1,17 @@
+*{
+    margin: 0;
+    padding: 0px; 
+}
+:root{
+    --font-family:'Cormorant SC', serif;
+    --white-color : white;
+}
 body{
     
     background-image: url("../images/Logo.jpg");
     display: flex;
     box-sizing: border-box;
-    margin: 0;
-    padding: 0px;    
+       
 }
 
 .logo {
@@ -12,8 +19,8 @@ body{
     position: relative;
     top: 60%;
     left: 50%;
-    color: white;
-    font-family: 'Cormorant SC', serif;
+    color: var(--white-color);
+    font-family: var(--font-family);
     font-size: 200%;
 }
 
@@ -29,17 +36,7 @@ body{
     top: 200%;
 }
 .navBar a {
-    color: white;
-    font-family: 'Cormorant SC', serif;
+    color: var(--white-color);
+    font-family: var(--font-family);
 }
 
-.question-page nav{
-    text-align: start;
-    width: 100%;
-    display: inline-block;
-    top: 30%;
-
-}
-
-
-.question-page

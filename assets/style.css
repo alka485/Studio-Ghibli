@@ -33,10 +33,28 @@ body{
     text-align: center;
     position: relative;
     display: inline-block;
-    top: 200%;
+    top: 300%;
 }
 .navBar a {
     color: var(--white-color);
     font-family: var(--font-family);
 }
 
+/* .film-panel{
+    width: 100%;
+    text-align:start;
+} */
+
+.film-panel nav{
+    text-align: start;
+    position: relative;
+    display: inline-block;
+    top: 30%;
+}
+
+.film-panel a{
+
+    color: var(--white-color);
+    font-family: var(--font-family);
+
+}

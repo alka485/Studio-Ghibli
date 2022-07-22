@@ -8,7 +8,7 @@
 }
 body{
     
-    background-image: url("../images/Logo.jpg");
+    background-image: url(".../images/Logo.jpg");
     display: flex;
     box-sizing: border-box;
        

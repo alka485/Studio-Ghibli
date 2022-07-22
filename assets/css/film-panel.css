@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0px; 
+}
+:root{
+    --font-family:'Cormorant SC', serif;
+    --white-color : white;
+}
+
+body{
+    
+    background-color: skyblue;
+    display: flex;
+    box-sizing: border-box;
+       
+}

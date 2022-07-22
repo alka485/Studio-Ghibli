@@ -50,11 +50,23 @@ body{
     position: relative;
     display: inline-block;
     top: 30%;
+    justify-content: flex-end;
 }
 
 .film-panel a{
 
     color: var(--white-color);
     font-family: var(--font-family);
+    width: 25%;
 
 }
+
+.rating{
+
+    color: var(--white-color);
+    font-family: var(--font-family);
+    }
+
+ .rating p{
+    top: 60%;
+ }   

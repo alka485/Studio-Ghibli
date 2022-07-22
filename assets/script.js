@@ -2,7 +2,7 @@ console.log("hello");
 directorNamesEl = document.getElementById("directorname");
 directorListEl = document.getElementById("list of directors");
 
-getApi();
+//getApi();
 
 function getApi() {
 
@@ -21,23 +21,23 @@ function getApi() {
         //     var createTableRow = document.createElement('tr');
         // var tableData = document.createElement('td');
         // var link = document.createElement('a');
-        var createTableRow = document.createElement('tr')
-        var tableData = document.createElement('td')
-        var createOption = document.createElement('a');
+        // var createTableRow = document.createElement('tr')
+        // var tableData = document.createElement('td')
+        var createOption = document.createElement('option');
        // console.log(data[i].director);
         createOption.textContent = data[i].director;
-        createOption.href = data[i].director;
-        tableData.appendChild(createOption);
-        createTableRow.appendChild(tableData);
-        directorNamesEl.appendChild(createTableRow);
+        createOption.value = data[i].director;
+        // tableData.appendChild(createOption);
+        // createTableRow.appendChild(tableData);
+        directorNamesEl.appendChild(createOption);
         
         }
 
        })
     
-
-    
 }
+
+directorNamesEl.addEventListener('click',getApi())
 
 
 

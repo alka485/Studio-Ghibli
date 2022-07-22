@@ -42,3 +42,11 @@ body{
  .rating p{
     top: 100%;
  }   
+
+ .directorName{
+    width: 100px;
+    padding: 10px;  
+    font-size: 12px;  
+ 
+}  
+ 
